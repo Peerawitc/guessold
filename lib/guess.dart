@@ -32,7 +32,7 @@ class _guessState extends State<guess> {
             // ไล่เฉดจากสีแดงไปสีน้ำเงิน
             colors: [
               Colors.lightBlueAccent.shade200,
-              Colors.blue.shade200,
+              Colors.redAccent.shade200,
               Colors.cyanAccent,
               //Colors.pinkAccent.shade100,
               //Colors.purpleAccent.shade100,
@@ -139,7 +139,7 @@ class _guessState extends State<guess> {
       print('MESSAGE: $message');
       print('data: $data');
       var getdata = data.map((e) => database(text: e["text"], value:e ["value"])).toList();
-      print(getdata);
+
     }
   }
 
